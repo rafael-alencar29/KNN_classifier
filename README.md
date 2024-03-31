@@ -8,3 +8,10 @@ The steps necessary to run the Jupiter Notebook file:
 - pip install -r requirements.txt
 - Create Jupyter Kernel:
   - python -m ipykernel install --user --name=<"kernel name"> --display-name=<"name">
+
+After running the Jupyter Notebook file the following files will be generated:
+
+- Classification report of the KNN model using cosine distance.
+- Classification report of the KNN model using euclidean distance.
+- Report with the top K and AUC score.
+- ROC curve graph in png format.
