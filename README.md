@@ -2,6 +2,8 @@
 
 K-Nearest Neighbor Classifier with cosine distance and euclidean distance.
 
+The dataset are image features of some genetic syndromes represented with ids.
+
 The steps necessary to run the Jupiter Notebook file:
 
 - Create virtual environment: python -m venv <"name">
